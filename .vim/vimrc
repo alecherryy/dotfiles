@@ -8,3 +8,6 @@ set textwidth=80 " Wrap at 80 cols
 set shiftwidth=4 " Indetation level to be the same as soft stab stop
 set expandtab " Replacing tabbing with spaces (4) 
 set showmatch " Show matching brackets
+
+" Syntax highlighting
+syntax on
