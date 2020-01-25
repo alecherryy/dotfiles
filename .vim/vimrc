@@ -1,0 +1,10 @@
+" Automatically compile and run program
+map <F8> :w <CR> :!gcc % -o %< && ./%< <CR>
+
+" Formatting settings
+set cindent " Automatically indent C
+set softtabstop=4 " Indent by 4 spaces
+set textwidth=80 " Wrap at 80 cols
+set shiftwidth=4 " Indetation level to be the same as soft stab stop
+set expandtab " Replacing tabbing with spaces (4) 
+set showmatch " Show matching brackets
